@@ -1,0 +1,96 @@
+/* @font-face {
+    font-family: 'BankGothicMdBTMedium';
+    src: url('https://fonts.googleapis.com/css?family=Abril+Fatface|Bevan|Black+Ops+One|Bowlby+One+SC|Chonburi|Poiret+One|Righteous');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+  */
+  body{
+    background-image:url("louposter-finaledit-min.jpeg");
+  
+    /* Full height */
+    height: 968px;
+    max-width: 823px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-image { 
+    /* The image used */
+   
+  }
+
+#lou-logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    /* border-style: solid;
+    border-width: 10px;
+    border-radius: 20px; */
+    height: 200px;
+    width: 200px;
+    color: #EC9F05;
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+}
+
+.email{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    color: #EC9F05;
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+    
+}
+
+.invest{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 65px;
+    color: #EC9F05;
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+}
+
+.book{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+}
+
+}
+
+#personal{
+    position: relative;
+    top:10px;
+    left:250px;
+    border-style: solid;
+    border-width: 3px;
+    height: 250px;
+    width: 750px;
+}
